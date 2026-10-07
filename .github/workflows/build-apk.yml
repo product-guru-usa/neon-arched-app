@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Install Capacitor
-        run: npm install @capacitor/core @capacitor/cli @capacitor/android
+        run: npm install @capacitor/core@7.4.4 @capacitor/cli@7.4.4 @capacitor/android@7.4.4
 
       - name: Build web app
         run: npm run build
